@@ -1,0 +1,14 @@
+package com.revature.service;
+
+import java.util.List;
+
+import com.revature.model.Reimbursement;
+
+public class ReimbursementSerivce {
+	
+	public List<Reimbursement> getReimbursements(User, currentlyLoggedInUser) {
+		
+	}
+	
+
+}

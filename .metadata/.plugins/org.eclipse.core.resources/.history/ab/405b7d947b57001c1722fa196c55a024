@@ -1,0 +1,13 @@
+package com.revature.controller;
+
+import io.javalin.Javalin;
+
+public class ReimbursementController implements Controller {
+
+	@Override
+	public void mapEndpoints(Javalin app) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.revature.dao;
+
+import java.util.List;
+
+import com.revature.model.Reimbursement;
+
+public class ReimbursementDAO {
+
+	public List<Reimbursement> getAllReimbursements() {
+		
+	}
+	
+	public List<Reimbursement> getReimbursementsByEmployee(int reimbId) {
+		
+	}
+}

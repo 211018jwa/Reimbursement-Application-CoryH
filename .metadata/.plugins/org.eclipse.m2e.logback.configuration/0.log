@@ -1,0 +1,278 @@
+2021-12-06 00:57:40,920 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 00:58:08,213 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-1:0.0.1-SNAPSHOT @ /Users/coryhall/Corys-repository/project-1/pom.xml.
+2021-12-06 00:58:08,885 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/main/java
+2021-12-06 00:58:08,886 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/main/resources
+2021-12-06 00:58:08,892 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/test/java
+2021-12-06 00:58:08,892 [Worker-7: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/test/resources
+2021-12-06 00:58:09,021 [Worker-7: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2021-12-06 00:58:12,207 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 00:58:12,233 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-06 00:58:12,244 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 00:58:12,246 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 00:59:17,078 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 01:00:08,570 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-1:0.0.1-SNAPSHOT @ /Users/coryhall/Reimbursement-Application-CoryH/project-1/pom.xml.
+2021-12-06 01:00:09,821 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/main/java
+2021-12-06 01:00:09,823 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/main/resources
+2021-12-06 01:00:09,826 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/test/java
+2021-12-06 01:00:09,826 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/test/resources
+2021-12-06 01:00:10,057 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2021-12-06 01:00:12,112 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 01:00:12,120 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-06 01:00:12,130 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 01:00:12,131 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 01:05:39,050 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 01:05:39,071 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 01:05:39,076 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 01:05:39,079 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 01:17:50,376 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-12-06 01:17:51,373 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-1:0.0.1-SNAPSHOT @ /Users/coryhall/Reimbursement-Application-CoryH/project-1/pom.xml.
+2021-12-06 01:17:51,877 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/main/java
+2021-12-06 01:17:51,878 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/main/resources
+2021-12-06 01:17:51,880 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/test/java
+2021-12-06 01:17:51,880 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/test/resources
+2021-12-06 01:17:52,232 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-12-06 01:17:53,439 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 01:17:53,449 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-06 01:17:53,480 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 01:17:53,482 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 02:10:54,215 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 02:10:54,220 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/project-1/src/main/resources
+2021-12-06 02:10:54,223 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 02:10:54,232 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 02:18:49,384 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 02:22:20,648 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 02:26:26,429 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 02:32:07,589 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 09:28:58,586 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-06 09:30:02,640 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-1:0.0.1-SNAPSHOT @ /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/pom.xml.
+2021-12-06 09:30:04,003 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/main/java
+2021-12-06 09:30:04,004 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/main/resources
+2021-12-06 09:30:04,005 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/test/java
+2021-12-06 09:30:04,195 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2021-12-06 09:30:07,619 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:30:07,629 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-06 09:30:07,642 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:30:07,643 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-06 09:30:37,425 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-12-06 09:30:37,984 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:project-1:0.0.1-SNAPSHOT @ /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/pom.xml.
+2021-12-06 09:30:38,294 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/main/java
+2021-12-06 09:30:38,295 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /project-1/src/main/resources
+2021-12-06 09:30:38,296 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project-1/src/test/java
+2021-12-06 09:30:38,473 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-12-06 09:30:39,016 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:30:39,019 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-06 09:30:39,026 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:30:39,027 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-06 09:34:55,128 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:34:55,170 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-06 09:34:55,172 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-06 09:34:55,173 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 10:45:34,863 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:45:34,930 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 10:45:34,935 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:45:34,936 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 10:45:37,302 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:45:37,320 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 10:45:37,345 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:45:37,348 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 10:46:32,169 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:46:32,174 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 10:46:32,185 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 10:46:32,186 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 11:34:46,455 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:34:46,548 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 11:34:46,805 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:34:46,837 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 11:34:56,719 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:34:56,972 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 11:34:57,511 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:34:57,579 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 11:35:52,795 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:35:52,856 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 11:35:53,134 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:35:53,190 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 11:41:33,984 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-07 11:41:38,483 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:41:38,497 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 11:41:38,519 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 11:41:38,521 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 12:50:19,344 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:50:19,357 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 12:50:19,361 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:50:19,362 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 12:50:58,008 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:50:58,012 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 12:50:58,015 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:50:58,016 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 12:52:40,355 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:52:40,358 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 12:52:40,359 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:52:40,360 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 12:55:58,917 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:55:58,921 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 12:55:58,922 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 12:55:58,923 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 13:03:38,259 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:03:38,263 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 13:03:38,267 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:03:38,267 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 13:38:23,520 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:38:23,591 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 13:38:23,620 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:38:23,621 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 13:38:33,694 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:38:33,718 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 13:38:33,724 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:38:33,725 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 13:40:26,436 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:40:26,679 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 13:40:26,989 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:40:27,096 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 13:54:57,795 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:54:57,965 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 13:54:58,183 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 13:54:58,206 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:37:11,797 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:37:11,920 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:37:12,072 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:37:12,076 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:43:44,832 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:43:44,855 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:43:44,926 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:43:44,976 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:44:08,025 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:44:08,100 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:44:08,146 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:44:08,147 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:45:27,478 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:45:27,495 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:45:27,501 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:45:27,502 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:46:28,231 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:46:28,324 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:46:28,604 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:46:28,664 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:47:02,983 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:47:02,994 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:47:03,001 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:47:03,002 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:48:48,355 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:48:48,520 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:48:48,584 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:48:48,589 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:49:30,035 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:49:30,294 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:49:30,447 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:49:30,448 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:57:20,279 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:57:20,537 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:57:20,689 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:57:20,698 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 14:58:20,745 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:58:20,852 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 14:58:20,882 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 14:58:21,167 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 15:09:26,503 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:09:26,658 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 15:09:26,874 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:09:26,917 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 15:11:36,341 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:11:36,462 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 15:11:36,790 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:11:36,805 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 15:12:08,432 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:12:08,561 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 15:12:08,595 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:12:08,596 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 15:15:55,787 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:15:55,972 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 15:15:56,036 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:15:56,038 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 15:16:08,549 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:16:08,585 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 15:16:08,594 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:16:08,595 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 15:19:10,299 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:19:10,393 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 15:19:10,601 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 15:19:10,648 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:21:14,862 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:21:14,953 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:21:14,985 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:21:14,987 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:21:51,786 [Worker-108: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:21:51,832 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:21:51,844 [Worker-108: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:21:51,845 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:26:18,388 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:26:18,407 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:26:18,417 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:26:18,419 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:26:44,583 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:26:44,682 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:26:44,928 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:26:44,940 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:28:21,629 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:28:21,653 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:28:21,677 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:28:21,677 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:30:57,654 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:30:57,677 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:30:57,688 [Worker-106: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:30:57,690 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:42:17,367 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:42:17,427 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:42:17,461 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:42:17,463 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:46:24,727 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:46:24,825 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:46:24,894 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:46:24,927 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:47:59,174 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:47:59,208 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:47:59,222 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:47:59,225 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:48:01,135 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:48:01,182 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 16:48:01,190 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:48:01,192 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:48:34,833 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:48:34,956 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:48:35,107 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:48:35,126 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:52:30,816 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:52:30,914 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:52:30,957 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:52:30,958 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:52:33,159 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:52:33,296 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 16:52:33,410 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:52:33,411 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:53:30,721 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:53:30,807 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:53:30,887 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:53:30,888 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:54:24,441 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:54:24,458 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:54:24,465 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:54:24,466 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:55:19,371 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:55:19,410 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:55:19,414 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:55:19,415 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:55:21,866 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:55:22,105 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 16:55:22,315 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:55:22,407 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:58:11,167 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:58:11,344 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 16:58:11,764 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:58:11,880 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 16:58:12,771 [Worker-135: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:58:12,854 [Worker-135: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-12-07 16:58:12,903 [Worker-135: Launching Application] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 16:58:12,907 [Worker-135: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources
+2021-12-07 17:04:50,761 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 17:04:50,805 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2021-12-07 17:04:50,865 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-07 17:04:50,866 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/src/test/resources

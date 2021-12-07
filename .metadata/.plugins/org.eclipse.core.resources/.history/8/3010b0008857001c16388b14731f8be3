@@ -1,0 +1,29 @@
+package com.revature.controller;
+
+import com.revature.service.AuthorizationService;
+
+import io.javalin.Javalin;
+import io.javalin.http.Handler;
+
+public class ReimbursementController implements Controller {
+	
+	private AuthorizationService authService;
+	
+	public ReimbursementController() {
+		this.authService = new AuthorizationService();
+	}
+	
+	private Handler getReimbursements = (ctx) -> {
+		// guard this endpoint 
+		// roles permitted: Finance Manager, Employee
+		
+	};
+
+	@Override
+	public void mapEndpoints(Javalin app) {
+		// TODO Auto-generated method stub
+		
+		app.get("/reimbursements", );
+	}
+
+}

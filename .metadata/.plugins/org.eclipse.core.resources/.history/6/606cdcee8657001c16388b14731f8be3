@@ -1,0 +1,20 @@
+package com.revature.controller;
+
+import io.javalin.Javalin;
+import io.javalin.http.Handler;
+
+public class ReimbursementController implements Controller {
+	
+	private Handler getReimbursements = (ctx) -> {
+		// Check if they are an employee or Finance manager, because they must be authorized
+	
+	};
+
+	@Override
+	public void mapEndpoints(Javalin app) {
+		// TODO Auto-generated method stub
+		
+		app.get("/reimbursements", );
+	}
+
+}
