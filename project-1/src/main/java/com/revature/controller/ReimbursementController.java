@@ -2,6 +2,7 @@ package com.revature.controller;
 
 import java.util.List;
 
+import com.revature.dto.ChangeStatusDTO;
 import com.revature.model.Reimbursement;
 import com.revature.model.User;
 import com.revature.service.AuthorizationService;
@@ -35,11 +36,25 @@ public class ReimbursementController implements Controller {
 		ctx.json(reimbursements);
 
 	};
+	// Only Financial manager can access this end point
+	private Handler changeStatus = (ctx) -> {
+		User currentlyLoggedInUser = (User) ctx.req.getSession().getAttribute("currentuser");
+		this.authService.authorizeFinanceManger(currentlyLoggedInUser);
+		
+		String reimbId = ctx.pathParam("reimb_id");
+		ChangeStatusDTO dto = ctx.bodyAsClass(ChangeStatusDTO.class);
+		
+		Reimbursement changedStatus = this.reimbursementService.changeStatus(currentlyLoggedInUser, reimbId, dto.getStatus());
+		ctx.json(changedStatus);
+
+		
+		
+	};
 
 	@Override
 	public void mapEndpoints(Javalin app) {
-
 		app.get("/reimbursements", getReimbursements);
+		app.patch("/reimbursements/{reimb_id}/updateReimbursement", changeStatus);
 	}
 
 }
