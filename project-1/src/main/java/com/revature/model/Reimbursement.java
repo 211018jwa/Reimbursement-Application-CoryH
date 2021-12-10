@@ -1,12 +1,14 @@
 package com.revature.model;
 
+
+import java.util.Date;
 import java.util.Objects;
 
 public class Reimbursement {
 	
 	private int reimbId;
 	private double reimbAmount;
-	private String submitted;
+	private Date submitted;
 	private String status;
 	private String resolved;
 	private String type;
@@ -15,24 +17,26 @@ public class Reimbursement {
 	private int resolver;
 	
 	
+	
 	public Reimbursement() {
 		super();
 
 	}
 
 
-	public Reimbursement(int reimbId, double reimbAmount, String submitted, String status, String resolved, String type,
+	public Reimbursement(int reimbId, double reimbAmount, Date generatedTime, String status, String resolved, String type,
 			String description, int author, int resolver) {
 		super();
 		this.reimbId = reimbId;
 		this.reimbAmount = reimbAmount;
-		this.submitted = submitted;
+		this.submitted = generatedTime;
 		this.status = status;
 		this.resolved = resolved;
 		this.type = type;
 		this.description = description;
 		this.author = author;
 		this.resolver = resolver;
+	
 	}
 
 
@@ -56,12 +60,12 @@ public class Reimbursement {
 	}
 
 
-	public String getSubmitted() {
+	public Date getSubmitted() {
 		return submitted;
 	}
 
 
-	public void setSubmitted(String submitted) {
+	public void setSubmitted(Date submitted) {
 		this.submitted = submitted;
 	}
 
@@ -155,13 +159,7 @@ public class Reimbursement {
 				+ ", status=" + status + ", resolved=" + resolved + ", type=" + type + ", description=" + description
 				+ ", author=" + author + ", resolver=" + resolver + "]";
 	}
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 

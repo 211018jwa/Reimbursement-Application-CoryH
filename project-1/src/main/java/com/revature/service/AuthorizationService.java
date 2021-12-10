@@ -22,4 +22,11 @@ public class AuthorizationService {
 		}
 	}
 
+	public void authorizeEmployee(User currentlyLoggedInUser) throws UnauthorizedException {
+		if (currentlyLoggedInUser == null || !currentlyLoggedInUser.getUserRole().equals("Employee")) {
+			throw new UnauthorizedException("You must be logged in and have a role of Employee for this resource");
+			
+		}
+	}
+
 }

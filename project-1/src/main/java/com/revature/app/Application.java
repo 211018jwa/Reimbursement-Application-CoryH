@@ -25,6 +25,7 @@ public class Application {
 
 		app.start(8080);
 
+		
 	}
 
 	public static void mapControllers(Javalin app, Controller... controllers) {
