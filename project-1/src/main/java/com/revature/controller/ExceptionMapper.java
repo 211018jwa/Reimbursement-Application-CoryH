@@ -6,6 +6,7 @@ import javax.security.auth.login.FailedLoginException;
 
 import com.revature.dto.MessageDTO;
 import com.revature.exceptions.ReimbursementAlreadyUpdatedException;
+import com.revature.exceptions.ReimbursementImageNotFoundException;
 import com.revature.exceptions.ReimbursementNotFoundException;
 import com.revature.exceptions.UnauthorizedException;
 
@@ -38,6 +39,12 @@ public class ExceptionMapper {
 			ctx.status(400);
 			ctx.json(new MessageDTO(e.getMessage()));
 
+		});
+		
+		app.exception(ReimbursementImageNotFoundException.class, (e, ctx) -> {
+			ctx.status(404);
+			ctx.json(new MessageDTO(e.getMessage()));
+			
 		});
 	}
 

@@ -89,12 +89,30 @@ public class ReimbursementController implements Controller {
 		
 		
 	};
+	
+	private Handler getImageFromReimbursementId = (ctx) -> {
+		// protect endpoint
+		User currentlyLoggedInUser = (User) ctx.req.getSession().getAttribute("currentuser");
+		this.authService.authorizeEmployeeAndFinanceManager(currentlyLoggedInUser);
+		
+		String id = ctx.pathParam("reimb_id");
+		
+		InputStream image = this.reimbursementService.getImageFromReimbursementId(currentlyLoggedInUser, id);
+		
+		Tika tika = new Tika();
+		String mimeType = tika.detect(image);
+		
+		ctx.contentType(mimeType); //specifying to client what the image actually is
+		ctx.result(image); // Sending the image back to client
+		
+	};
 
 	@Override
 	public void mapEndpoints(Javalin app) {
 		app.get("/reimbursements", getReimbursements);
 		app.patch("/reimbursements/{reimb_id}/updateReimbursement", changeStatus);
 		app.post("/reimbursements", addReimbursement);
+		app.get("/reimbursements/{reimb_id}/image", getImageFromReimbursementId);
 	}
 
 }

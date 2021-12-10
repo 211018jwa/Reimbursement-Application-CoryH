@@ -10,7 +10,9 @@ import java.util.Set;
 import com.revature.model.User;
 import com.revature.dao.ReimbursementDAO;
 import com.revature.exceptions.ReimbursementAlreadyUpdatedException;
+import com.revature.exceptions.ReimbursementImageNotFoundException;
 import com.revature.exceptions.ReimbursementNotFoundException;
+import com.revature.exceptions.UnauthorizedException;
 import com.revature.model.Reimbursement;
 
 public class ReimbursementService {
@@ -92,6 +94,46 @@ public class ReimbursementService {
 		Reimbursement addedReimbursement = this.reimbursementDao.addReimbursement(rAmount, authorId, content, reimbDescription, reimbType);
 			
 		return addedReimbursement;
+	}
+	// Business Logic
+	// Finance Managers will be able to view Images that belong to anybody
+	// Employees will only be able to view images for reimbursements that belong to them
+	
+	public InputStream getImageFromReimbursementId(User currentlyLoggedInUser, String reimbId) throws SQLException, UnauthorizedException, ReimbursementImageNotFoundException {
+		// Check if they are an employee
+		
+		try {
+			int id = Integer.parseInt(reimbId);
+			
+			if (currentlyLoggedInUser.getUserRole().equals("Employee")); {
+				// Grab all of the corresponding reimbursements that go to that employee
+				int employeeId = currentlyLoggedInUser.getId();
+				List<Reimbursement> reimbursementsThatBelongToEmployee = this.reimbursementDao.getReimbursementsByEmployee(employeeId);
+				
+				Set<Integer> reimbursementIdsEncountered = new HashSet<>();
+				for(Reimbursement r : reimbursementsThatBelongToEmployee) {
+					reimbursementIdsEncountered.add(r.getReimbId());
+				}
+				
+				//Check to if the image they are trying to grab for a particular reimbursement is actually their own reimbursement
+				if (!reimbursementIdsEncountered.contains(id)) {
+					throw new UnauthorizedException("You cannot access the reimbursement images that do not belong to yourself");
+				}
+			}
+			
+			// Grab the image from the DAO 
+			InputStream image = this.reimbursementDao.getImageFromReimbursementId(id);
+			
+			if(image == null) {
+				throw new ReimbursementImageNotFoundException("Image was not found for reimbursement id " + reimbId);
+			}
+			
+			return image;
+		}catch(NumberFormatException e) {
+			throw new InvalidParameterException("Reimbursement id supplied must be an int");
+		}
+		
+		
 	}
 
 }
