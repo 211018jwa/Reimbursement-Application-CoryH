@@ -3,4 +3,18 @@
     <fullyQualifiedTypeName name="com.revature.dto.ChangeStatusDTO"/>
     <fullyQualifiedTypeName name="com.revature.exceptions.ReimbursementNotFoundException"/>
     <fullyQualifiedTypeName name="java.security.InvalidParameterException"/>
+    <fullyQualifiedTypeName name="com.revature.exceptions.ReimbursementAlreadyUpdatedException"/>
+    <fullyQualifiedTypeName name="io.javalin.http.UploadedFile"/>
+    <fullyQualifiedTypeName name="org.apache.tika.Tika"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.sql.Blob"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="com.revature.model.Reimbursement"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.revature.exceptions.UnauthorizedException"/>
+    <fullyQualifiedTypeName name="com.revature.exception.ReimbursementImageNotFoundException"/>
+    <fullyQualifiedTypeName name="com.revature.exceptions.ReimbursementImageNotFoundException"/>
 </qualifiedTypeNameHistroy>

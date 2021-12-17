@@ -12,10 +12,26 @@ input {
 
 #login-info {
     text-align:center;
-    margin-top: 100px
+    margin-top: 100px;
+    display: block;
+
 }
 
 #login-info a {
     display: block;
     margin-top: 4rem;
 }
+
+#username {
+    margin: auto;
+}
+
+#password {
+    margin: auto;
+}
+
+p{
+    text-align:center;
+    padding: 100px;
+}
+

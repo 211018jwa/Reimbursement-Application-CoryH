@@ -45,7 +45,7 @@ async function populateTableWithReimbursements() {
        td1.innerHTML = reimbursement.reimbId;
 
        let td2 = document.createElement('td');
-       td2.innerHTML = reimbursement.reimbAmount;
+       td2.innerHTML = '$' + reimbursement.reimbAmount;
 
        let td3 = document.createElement('td');
        td3.innerHTML = new Date(reimbursement.submitted).toUTCString();
@@ -101,6 +101,37 @@ async function populateTableWithReimbursements() {
        let td8 = document.createElement('td');
        td8.innerHTML = reimbursement.author;
 
+       let td12 = document.createElement('td');
+       // td12.innerHTML = reimbursement.receipt;
+
+       let viewImageButton = document.createElement('button');
+       viewImageButton.innerHTML = 'View Image';
+       td12.appendChild(viewImageButton);
+
+       viewImageButton.addEventListener('click', async () => {
+            // Add the is active class to the modal ( so that the modal appears)
+            // inside of the modal on the div.modal-content 
+            // -> img tag with src="http://localhost:8080/reimbursements/{reimb_id}/image" 
+            let reimbursementImageModal = document.querySelector('#reimbursement-image-modal');
+
+            let modalCloseElement = reimbursementImageModal.querySelector('button');
+            modalCloseElement.addEventListener('click', () => {
+                reimbursementImageModal.classList.remove('is-active');
+            });
+
+            //you can take an element and use querySelector on it to find the child element that are nested within it 
+            let modalContentElement = reimbursementImageModal.querySelector('.modal-content');
+            modalContentElement.innerHTML = '';
+
+            let imageElement = document.createElement('img');
+            imageElement.setAttribute('src', `http://localhost:8080/reimbursements/${reimbursement.reimbId}/image`);
+            modalContentElement.appendChild(imageElement);
+
+            reimbursementImageModal.classList.add('is-active');
+
+       });
+
+
        
        
 
@@ -115,6 +146,8 @@ async function populateTableWithReimbursements() {
        tr.appendChild(td9);
        tr.appendChild(td10);
        tr.appendChild(td11);
+       tr.appendChild(td12);
+
 
        tbodyElement.appendChild(tr);
 

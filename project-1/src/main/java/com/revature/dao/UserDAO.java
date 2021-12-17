@@ -12,7 +12,7 @@ public class UserDAO {
 
 	public User getUserByUsernameAndPassword(String username, String password) throws SQLException {
 		try (Connection con = JDBCUtility.getConnection()) {
-			String sql = "SELECT * FROM project1.ers_users WHERE username = ? AND password = ? ";
+			String sql = "SELECT * FROM project1.ers_users WHERE username = ? AND password = crypt(?, password) ";
 			
 			PreparedStatement pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, username);

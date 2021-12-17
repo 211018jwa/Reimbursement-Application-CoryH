@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.tika.Tika;
 
 import com.revature.dto.ChangeStatusDTO;
+import com.revature.dto.MessageDTO;
 import com.revature.model.Reimbursement;
 import com.revature.model.User;
 import com.revature.service.AuthorizationService;
@@ -70,6 +71,13 @@ public class ReimbursementController implements Controller {
 		 */
 		
 		UploadedFile reimbReceipt = ctx.uploadedFile("reimb_receipt");
+		
+		if (reimbReceipt == null) {
+			ctx.status(400);
+			ctx.json(new MessageDTO("Must have an image to upload"));
+			return;
+		}
+		
 		InputStream content = reimbReceipt.getContent();
 		
 		Tika tika = new Tika();
@@ -91,7 +99,7 @@ public class ReimbursementController implements Controller {
 	};
 	
 	private Handler getImageFromReimbursementId = (ctx) -> {
-		// protect endpoint
+		// protect end point
 		User currentlyLoggedInUser = (User) ctx.req.getSession().getAttribute("currentuser");
 		this.authService.authorizeEmployeeAndFinanceManager(currentlyLoggedInUser);
 		

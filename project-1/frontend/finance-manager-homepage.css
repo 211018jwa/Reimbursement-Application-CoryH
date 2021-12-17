@@ -1,0 +1,53 @@
+.finance-manager-homepage-grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav nav nav"
+      "reimbursement-display reimbursement-display reimbursement-submit-form"
+      "reimbursement-display reimbursement-display reimbursement-submit-form"; 
+  }
+
+  .reimbursement-submit-form { 
+      grid-area: reimbursement-submit-form;
+    }
+    
+    .reimbursement-submit-form div {
+        margin-top: 30px;
+    }
+
+  .nav { 
+      grid-area: nav; 
+    }
+
+
+  .reimbursement-display { 
+      grid-area: reimbursement-display; 
+    }
+
+    #reimbursement-table {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    table, th, td{
+        width: 1100px;
+        margin: auto;
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid black;
+
+    } 
+
+    #title {
+        font-size: 30px;
+        padding: 50px;
+    }
+
+    h{
+        font-size: 30px;
+    }
+

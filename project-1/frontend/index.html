@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reimbursement</title>
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css"> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
-<body>
+<body style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fmodern-office&psig=AOvVaw0IKmKguVIOPhedcnG-rtYc&ust=1639790261757000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNC5rvLU6fQCFQAAAAAdAAAAABAF');">
     <!-- This is the websites homepage-->
+    <section class="hero is-link" style="background-color: mediumturquoise;">
+        <div class="hero-body">
+          <p class="title" style="padding: 50px; color: crimson; ">
+           <strong> Welcome to the Reimbursement System</strong>
+          </p>
+          <p class="subtitle" style="color: crimson;">
+                Reimbursements made Easy!
+          </p>
+          <div id="login-info">
+            <h1 style="color: crimson;"><strong>Login to Reimbursement App</strong></h1>
+            <label for="username" style="color: crimson;"><strong>Username:</strong></label>
+            <input id="username" type="text"/>
+            <label for="password" style="color: crimson;"><strong>Password:</strong></label>
+            <input id="password" type="password"/>
+            <button id="login-btn">Login</button>
     
-    <div id="login-info">
-        <h1>Login to Reimbursement App</h1>
-        <label for="username">Username:</label>
-        <input id="username" type="text"/>
-        <label for="password">Password:</label>
-        <input id="password" tpye="text"/>
-        <button id="login-btn">Login</button>
-
-        <a href="sign-up.html">Sign-Up</a>
-    </div>
+            <a href="sign-up.html">Sign-Up</a>
+        </div>
+        </div>
+      </section>
+   
     <script src="index.js"></script>
 </body>
 </html>

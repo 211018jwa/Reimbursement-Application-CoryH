@@ -8,7 +8,7 @@ public class Reimbursement {
 	
 	private int reimbId;
 	private double reimbAmount;
-	private Date submitted;
+	private String submitted;
 	private String status;
 	private String resolved;
 	private String type;
@@ -24,7 +24,7 @@ public class Reimbursement {
 	}
 
 
-	public Reimbursement(int reimbId, double reimbAmount, Date generatedTime, String status, String resolved, String type,
+	public Reimbursement(int reimbId, double reimbAmount, String generatedTime, String status, String resolved, String type,
 			String description, int author, int resolver) {
 		super();
 		this.reimbId = reimbId;
@@ -60,12 +60,12 @@ public class Reimbursement {
 	}
 
 
-	public Date getSubmitted() {
+	public String getSubmitted() {
 		return submitted;
 	}
 
 
-	public void setSubmitted(Date submitted) {
+	public void setSubmitted(String submitted) {
 		this.submitted = submitted;
 	}
 

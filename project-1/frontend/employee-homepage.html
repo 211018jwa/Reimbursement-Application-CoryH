@@ -1,34 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Homepage</title>
+    <link rel="stylesheet" href="employee-homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
+
 <body>
-    <button id="logout">Logout</button>
-    <h1>Welcome to the Employee Homepage!</h1>
-    <h2>Reimbursements</h2>
-    <table id= "reimbursement-table">
-        <thead>
-            <tr>
-                <th>Reimb Id</th>
-                <th>Amount</th>
-                <th>Reimb Submitted</th>
-                <th>Reimb Status</th>
-                <th>Reimb Resolved</th>
-                <th>Reimb Type</th>
-                <th>Description</th>
-                <th>Author</th>
-                <th>Resolver</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
+    <div id="reimbursement-image-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+         
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+    <div class="employee-homepage-grid-container">
+        <div class="nav">
+            <button id="logout">Logout</button>
+            <h1 id=title>Welcome to the Employee Homepage!</h1>
+        </div>
+        <div class="reimbursement-display">
+            <table id="reimbursement-table">
+                <h2>Reimbursements</h2>
+                <thead>
+                    <tr>
+                        <th>Reimb Id</th>
+                        <th>Amount</th>
+                        <th>Reimb Submitted</th>
+                        <th>Reimb Status</th>
+                        <th>Reimb Resolved</th>
+                        <th>Reimb Type</th>
+                        <th>Description</th>
+                        <th>Author</th>
+                        <th>Resolver</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="reimbursement-submit-form">
+            <h2>Submit New Reimbursement</h2>
+            <div>
+                <label for="reimbursement-amount">Reimbursement Amount:</label>
+                <input type="text" class="reimbursement-amount" />
+            </div>
+            <div>
+                <label for="reimbType">Reimbursement Type:</label>
+                <select name="reimbType" id="reimbType">
+                    <option value="Food">Food</option>
+                    <option value="Lodging">Lodging</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
 
-    </table>
-
+            <div>
+                <label for="reimbursement-file">Reimbursement Upload (JPEG, PNG, or GIF):</label>
+                <input type="file" class="reimbursement-file" />
+            </div>
+            <div>
+                <label for="reimbursement-description">Description:</label>
+                <input type="text" class="reimbursement-description" />
+            </div>
+            <div>
+                <button class="submit-reimb-btn">Submit Reimbursement</button>
+            </div>
+        </div>
+    </div>
     <script src="employee-homepage.js"></script>
 </body>
+
 </html>
