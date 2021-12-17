@@ -6254,3 +6254,19 @@ org.postgresql.util.PSQLException: ERROR: relation "project1.ers_reimbursement" 
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
 	at java.lang.Thread.run(Thread.java:748)
+16 Dec 2021 - 21:47:30.796 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1006ms to org.eclipse.jetty.util.log.Slf4jLog
+16 Dec 2021 - 21:47:30.984 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/coryhall/Reimbursement-Application-CoryH/project-1/target/classes/static/'
+16 Dec 2021 - 21:47:31.128 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+16 Dec 2021 - 21:47:31.130 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+16 Dec 2021 - 21:47:31.150 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 67 days old. Consider upgrading!).
+16 Dec 2021 - 21:47:31.371 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+16 Dec 2021 - 21:47:31.371 [main] INFO  io.javalin.Javalin - Javalin started in 242ms \o/
+16 Dec 2021 - 21:54:58.851 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @734ms to org.eclipse.jetty.util.log.Slf4jLog
