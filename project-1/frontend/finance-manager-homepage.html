@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="finance-manager-homepage.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
-<body style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fmodern-office&psig=AOvVaw0IKmKguVIOPhedcnG-rtYc&ust=1639790261757000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNC5rvLU6fQCFQAAAAAdAAAAABAF');">
+<body style="background-image: url(pexels-photo-1170412.jpeg); color: white; background-size: 100% ; background-repeat: no-repeat; height: 750px;">
+
+   
     <div id="reimbursement-image-modal" class="modal">
         <div class="modal-background"></div>
         <div class="modal-content">
@@ -17,9 +19,12 @@
         <button class="modal-close is-large" aria-label="close"></button>
       </div>
     <button id="logout">Logout</button>
-    <h1><strong>Welcome to the Finance Manager Homepage!</strong></h1>
+    <div id="headers">
+        <h1>Welcome to the Finance Manager Homepage!</h1>
 
-    <h2>Reimbursements</h2>
+        <h2>Reimbursements</h2>
+    </div>
+    <div id="table-div">
     <table id= "reimbursement-table">
         <thead>
             <tr>
@@ -36,13 +41,11 @@
                 <th>Approve/Deny</th>
                 <th>View Image</th>
             </tr>
-        </thead>
-        <tbody>
+           </thead>
+         <tbody>
         </tbody>
-
-    </table>
-
-
+      </table>
+    </div>
     <script src="finance-manager-homepage.js"></script>
 </body>
 </html>

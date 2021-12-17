@@ -7,6 +7,8 @@
       "nav nav nav"
       "reimbursement-display reimbursement-display reimbursement-submit-form"
       "reimbursement-display reimbursement-display reimbursement-submit-form"; 
+      background-color: #11bfa5b8;
+      height: 750px;
   }
 
   .reimbursement-submit-form { 
@@ -24,6 +26,8 @@
 
   .reimbursement-display { 
       grid-area: reimbursement-display; 
+      
+      color: black;
     }
 
     #reimbursement-table {
@@ -46,4 +50,17 @@
         font-size: 30px;
         padding: 50px;
     }
+
+
+    #reimbursement-display {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+       
+    }
+
+    #headers {
+        font-size: 35px;
+    }
+
+
 

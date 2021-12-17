@@ -47,7 +47,14 @@
         padding: 50px;
     }
 
-    h{
-        font-size: 30px;
+
+    #table-div {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+       
+    }
+
+    #headers {
+        font-size: 35px;
     }
 
