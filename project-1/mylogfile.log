@@ -6270,3 +6270,33 @@ org.postgresql.util.PSQLException: ERROR: relation "project1.ers_reimbursement" 
 16 Dec 2021 - 21:47:31.371 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
 16 Dec 2021 - 21:47:31.371 [main] INFO  io.javalin.Javalin - Javalin started in 242ms \o/
 16 Dec 2021 - 21:54:58.851 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @734ms to org.eclipse.jetty.util.log.Slf4jLog
+16 Dec 2021 - 22:36:13.738 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @822ms to org.eclipse.jetty.util.log.Slf4jLog
+16 Dec 2021 - 22:36:13.828 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/coryhall/Reimbursement-Application-CoryH/project-1/target/classes/static/'
+16 Dec 2021 - 22:36:13.973 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+16 Dec 2021 - 22:36:13.974 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+16 Dec 2021 - 22:36:13.989 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 67 days old. Consider upgrading!).
+16 Dec 2021 - 22:36:14.168 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+16 Dec 2021 - 22:36:14.168 [main] INFO  io.javalin.Javalin - Javalin started in 195ms \o/
+03 Jan 2022 - 13:49:09.725 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @694ms to org.eclipse.jetty.util.log.Slf4jLog
+03 Jan 2022 - 13:49:09.808 [main] INFO  io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=static, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///Users/coryhall/Reimbursement-Application-CoryH/Reimbursement-Application-CoryH/project-1/target/classes/static/'
+03 Jan 2022 - 13:49:09.960 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+03 Jan 2022 - 13:49:09.961 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+03 Jan 2022 - 13:49:09.975 [main] INFO  io.javalin.Javalin - You are running Javalin 4.1.1 (released October 10, 2021. Your Javalin version is 85 days old. Consider upgrading!).
+03 Jan 2022 - 13:49:10.174 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+03 Jan 2022 - 13:49:10.174 [main] INFO  io.javalin.Javalin - Javalin started in 214ms \o/
